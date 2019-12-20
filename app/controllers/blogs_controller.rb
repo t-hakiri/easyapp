@@ -49,8 +49,6 @@ class BlogsController < ApplicationController
     end
   end
 
-
-
   def destroy
     @blog.destroy
     respond_to do |format|
